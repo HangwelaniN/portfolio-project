@@ -1,4 +1,7 @@
-h1 {
-  color: blue;
-  font-family: "Roboto", sans-serif;
+:root {
+  ---primary-color: Black;
+  --secondary-color: white;
+  --primary-font: "Fuggles", cursive;
+  --secondary-font: "Montserrat", sans-serif;
+  --tertiary-font: "Roboto", sans-serif;
 }
