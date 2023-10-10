@@ -1,9 +1,28 @@
 :root {
   ---primary-color: Black;
   --secondary-color: #ffffff;
+  --tertiary-color: goldenrod;
   --primary-font: "Fuggles", cursive;
   --secondary-font: "Montserrat", sans-serif;
   --tertiary-font: "Roboto", sans-serif;
+}
+.logo {
+  color: var(--secondary-color);
+  padding: 19px;
+  font-family: var(--tertiary-font);
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+nav a:hover,
+nav li.active a {
+  color: var(--tertiary-color);
+}
+ul,
+li {
+  display: inline;
+  padding: 19px 5px;
 }
 h4 {
   font-family: var(--tertiary-font);
@@ -50,4 +69,49 @@ p {
   font-size: 25px;
   transition: ease-in-out 20ms;
   cursor: pointer;
+}
+.owner {
+  font-family: var(--tertiary-font);
+  font-size: 45px;
+  font-weight: 300;
+  color: var(--secondary-color);
+  padding: 27px 0;
+}
+p1 {
+  font-family: var(--tertiary-font);
+  font-size: 18px;
+  color: var(--tertiary-color);
+}
+.paragraph {
+  color: var(--secondary-color);
+  font-family: var(--tertiary-font);
+  font-size: 18px;
+}
+#media {
+  color: var(--secondary-color);
+  font-size: 10px;
+  padding: 0 10px;
+}
+#media:hover {
+  color: var(--tertiary-color);
+  font-size: 15px;
+}
+.button1 {
+  color: #272142;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  .logo {
+    display: none;
+  }
+  .owner {
+    font-size: 30px;
+  }
 }
