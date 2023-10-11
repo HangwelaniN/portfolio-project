@@ -43,9 +43,13 @@ p {
   display: flex;
   justify-content: center;
 }
-.head {
+.head,
+h1 {
   text-align: center;
   color: var(--secondary-color);
+}
+h1 {
+  padding-bottom: 30px;
 }
 .second {
   height: 600px;
@@ -82,6 +86,26 @@ p1 {
   font-size: 18px;
   color: var(--tertiary-color);
 }
+.intouch {
+  font-family: var(--tertiary-font);
+  font-size: 18px;
+  text-align: center;
+}
+p2 {
+  color: var(--tertiary-color);
+}
+p {
+  color: var(--secondary-color);
+  padding-bottom: 30px;
+}
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+a:hover {
+  color: var(---primary-color);
+}
+
 .paragraph {
   color: var(--secondary-color);
   font-family: var(--tertiary-font);
